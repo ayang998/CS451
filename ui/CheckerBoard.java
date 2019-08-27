@@ -61,7 +61,7 @@ public class CheckerBoard extends JButton {
 
 		this.game = (game == null) ? new Game() : game;
 
-		this.lightTile = Color.RED;
+		this.lightTile = Color.WHITE;
 		this.darkTile = Color.BLACK;
 		this.window = window;
 
