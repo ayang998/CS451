@@ -1,8 +1,3 @@
-/* Name: ConnectionListener
- * Author: Devon McGrath
- * Description: This class acts as a server and listens for connections on the
- * specified port.
- */
 
 package network;
 

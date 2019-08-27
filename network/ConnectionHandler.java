@@ -1,8 +1,4 @@
-/* Name: ConnectionHandler
- * Author: Devon McGrath
- * Description: This class is responsible for handling a connection to the
- * ConnectionListener.
- */
+
 
 package network;
 

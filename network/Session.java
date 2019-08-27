@@ -1,7 +1,4 @@
-/* Name: Session
- * Author: Devon McGrath
- * Description: This class represents a session between two clients.
- */
+
 
 package network;
 
