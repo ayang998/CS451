@@ -120,15 +120,15 @@ public class MoveLogic {
 				continue;
 			}
 
-			boolean isWhite = (tid == Board.RED_CHECKER || tid == Board.RED_KING);
-			if (isBlack && !isWhite) {
+			boolean isRed = (tid == Board.RED_CHECKER || tid == Board.RED_KING);
+			if (isBlack && !isRed) {
 				continue;
 			}
 			boolean isKing = (tid == Board.BLACK_KING || tid == Board.BLACK_KING);
 
 			int dx = (checker.x - p.x) * 2;
 			int dy = (checker.y - p.y) * 2;
-			if (!isKing && (isWhite ^ (dy < 0))) {
+			if (!isKing && (isRed ^ (dy < 0))) {
 				continue;
 			}
 			int endIndex = Board.toIndex(new Point(p.x + dx, p.y + dy));
