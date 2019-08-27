@@ -1,0 +1,11 @@
+CS451-001 Group 7
+
+Zachary Jung
+Anna Nguyen
+Mosfiqur Rahman
+Andy Yang
+
+To execute the code, run following command:
+
+javac ui/*.java model/*.java logic/*.java network/*.java
+java ui.Main
