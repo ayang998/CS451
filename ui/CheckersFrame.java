@@ -84,14 +84,14 @@ public class CheckersFrame extends JFrame {
 		aboutUs.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent evt) {
-				JDialog dialog = new JDialog();
+				final JDialog dialog = new JDialog();
 				dialog.setLayout(new BorderLayout());
 				dialog.getContentPane().setBackground(Color.WHITE);
 				dialog.setPreferredSize(new Dimension(300, 300));
 
 				dialog.setTitle("About Us");
 
-				JLabel group = new JLabel("<html> CS451-001 Group 7 <br>" + "<br> Zachary Jung " + "<br> Anna Nguyen "
+				JLabel group = new JLabel("<html> Version 1.2 <br><br>"+"CS451-001 Group 7 <br>" + "<br> Zachary Jung " + "<br> Anna Nguyen "
 						+ "<br> Mosfiqur Rahman " + "<br> Andy Yang </html>", SwingConstants.CENTER);
 				group.setFont(new Font("Arial", Font.PLAIN, 20));
 				dialog.add(group);
